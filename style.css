@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "SFpro";
+	src: url("./assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf"),
+		format("ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outline-btn {
+	@apply text-xs text-k-sky border border-k-sky px-3 py-2 rounded-full hover:bg-k-sky hover:text-white transition-all duration-300;
+}
+
+.bg-btn {
+	@apply text-xs bg-k-sky text-white border border-k-sky px-5 py-2 rounded-full hover:bg-white hover:text-k-sky transition-all duration-300;
+}
