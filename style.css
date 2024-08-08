@@ -8,10 +8,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.outline-btn {
-	@apply text-xs text-primary border border-primary px-3 py-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300;
-}
-
-.bg-btn {
-	@apply text-xs bg-primary text-white border border-primary px-5 py-2 rounded-full hover:bg-white hover:text-primary transition-all duration-300;
+@layer components {
+	.outline-btn {
+		@apply text-xs text-primary border border-primary px-3 py-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300;
+	}
+	.bg-btn {
+		@apply text-xs bg-primary text-white border border-primary px-5 py-2 rounded-full hover:bg-white hover:text-primary transition-all duration-300;
+	}
 }
