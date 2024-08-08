@@ -9,9 +9,9 @@
 @tailwind utilities;
 
 .outline-btn {
-	@apply text-xs text-k-sky border border-k-sky px-3 py-2 rounded-full hover:bg-k-sky hover:text-white transition-all duration-300;
+	@apply text-xs text-primary border border-primary px-3 py-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300;
 }
 
 .bg-btn {
-	@apply text-xs bg-k-sky text-white border border-k-sky px-5 py-2 rounded-full hover:bg-white hover:text-k-sky transition-all duration-300;
+	@apply text-xs bg-primary text-white border border-primary px-5 py-2 rounded-full hover:bg-white hover:text-primary transition-all duration-300;
 }
